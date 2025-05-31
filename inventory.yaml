@@ -1,0 +1,9 @@
+acilab:
+  children:
+    apic:
+      hosts:
+        10.xx.xx.xx:
+          ansible_host: xx.xx.xx.xx
+          aci_username: apic#fallback\\devil
+          aci_password: findme
+          aci_validate_certs: no
